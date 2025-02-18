@@ -1,0 +1,26 @@
+<template>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-heading">Movie Search With Alok</h1>
+            <div class="slds-grid slds-wrap slds-grid_align-center slds-grid_vertical-align-center">
+                <!-- Search Input -->
+                <div class="slds-col slds-size_2-of-3 slds-medium-size_8-of-12">
+                    <lightning-input 
+                        placeholder="Enter movie for search"
+                        onchange={changeHandler} 
+                        variant="label-hidden" 
+                        type="search">
+                    </lightning-input>
+                </div>
+                <!-- Search Button -->
+                <div class="slds-col slds-size_1-of-3 slds-medium-size_4-of-12">
+                    <lightning-button 
+                        label="Search Movie" 
+                        variant="destructive" 
+                        onclick={clickHandler}>
+                    </lightning-button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
