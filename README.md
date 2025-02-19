@@ -5,9 +5,11 @@ Movie Explorer is a **Lightning Web Component (LWC)** that allows users to searc
 
 ## 📸 Screenshots
 ### 🔍 Search Movies
-![Search Banner](./screenshots/banner.png)
+![image](https://github.com/user-attachments/assets/9d89782c-aa1a-43b3-9a71-210a461ecb3e)
+
 ### 🎥 Movie Results
-![Movie Results](./screenshots/results.png)
+![image](https://github.com/user-attachments/assets/50ae93a3-2462-4e59-93a9-0e27c116f827)
+
 
 ## ✨ Features
 - 🔎 **Search movies** using TMDB API.
