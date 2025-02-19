@@ -1,3 +1,13 @@
 <template>
-    
+    <template lwc:if={checkMovie}>
+        <lightning-card>
+            <div class="slds-grid slds-wrap">
+                <template for:each={movieresults} for:item="movie">
+                    <div key={movie.id} class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_4-of-12">
+                        <c-movie-tile-component movie={movie} onmovieclick={movieClick}></c-movie-tile-component>
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+    </template>
 </template>

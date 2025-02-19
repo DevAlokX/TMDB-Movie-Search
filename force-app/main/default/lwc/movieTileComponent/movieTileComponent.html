@@ -1,0 +1,10 @@
+<template>
+    <div class = "card">
+        <img class = "movie-image" src={fullImageUrl} alt = {movie.original_title}/>
+        <div class = "card-content">
+            <h1 class="header">{movie.title}</h1>
+            <p class= "detail">Release Date - {movie.release_date}</p>
+        </div>
+        <button class="movie-detail" onclick={movieHandler}>Description</button>
+    </div>
+</template>

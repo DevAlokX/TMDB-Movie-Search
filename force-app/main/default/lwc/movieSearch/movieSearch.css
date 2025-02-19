@@ -18,7 +18,7 @@
     width: 90%;
     max-width: 600px;
     text-align: center;
-    color: white;
+    color: rgb(12, 12, 12);
 }
 
 .hero-heading {
@@ -28,12 +28,10 @@
     color: white;
 }
 
-.slds-grid {
-    display: flex;
-    align-items: center;  /* Ensures vertical alignment */
-    gap: 10px;            /* Adds spacing between input and button */
-}
 
-.slds-col {
-    flex: 1; /* Ensures input and button stay on the same row */
+lightning-input input {
+    background: rgba(255, 255, 255, 0.9); /* Light background */
+    color: black; /* Dark text for visibility */
+    padding: 10px;
+    border-radius: 5px;
 }

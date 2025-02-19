@@ -1,0 +1,7 @@
+:host {
+    --slds-c-card-color-background: #ffffff; /* Light Red */
+}
+
+:host lightning-card {
+    background-color: #1E3A5F !important;
+}

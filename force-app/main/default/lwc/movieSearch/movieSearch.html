@@ -1,26 +1,29 @@
 <template>
     <div class="hero-section">
         <div class="hero-content">
-            <h1 class="hero-heading">Movie Search With Alok</h1>
+            <h1 class="hero-heading">⭐ Movie Explorer: Your Ultimate Guide</h1>
             <div class="slds-grid slds-wrap slds-grid_align-center slds-grid_vertical-align-center">
                 <!-- Search Input -->
-                <div class="slds-col slds-size_2-of-3 slds-medium-size_8-of-12">
+                <div class="slds-col slds-size_12-of-12 slds-medium-size_8-of-12">
                     <lightning-input 
-                        placeholder="Enter movie for search"
+                        placeholder="Explore Movie"
                         onchange={changeHandler} 
                         variant="label-hidden" 
-                        type="search">
+                        type="search"
+                        class="search-input">
                     </lightning-input>
                 </div>
                 <!-- Search Button -->
-                <div class="slds-col slds-size_1-of-3 slds-medium-size_4-of-12">
+                <div class="slds-col slds-size_12-of-12 slds-medium-size_4-of-12 slds-var-p-around_x-small">
                     <lightning-button 
                         label="Search Movie" 
                         variant="destructive" 
-                        onclick={clickHandler}>
+                        onclick={clickHandler}
+                        class="full-width-button">
                     </lightning-button>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
